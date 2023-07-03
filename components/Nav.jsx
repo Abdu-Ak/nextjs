@@ -52,9 +52,7 @@ const Nav = () => {
 
               <button
                 type="button"
-                onClick={() => {
-                  signOut: Boolean;
-                }}
+                onClick={signOut}
                 className="outline_btn "
               >
                 Sign Out
